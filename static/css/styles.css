@@ -9,7 +9,14 @@ body {
 
 h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 4rem;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
     line-height: 1.5;
     font-weight: 900;
 }
@@ -50,4 +57,70 @@ h1 {
 .iphone-img {
     width: 60%;
     transform: rotate(25deg);
+    padding-left: 2rem;
+}
+
+/* Bullet Points */
+
+.bullet-points {
+    text-align: center;
+}
+
+/* Features */
+
+#features {
+    padding: 7% 15%;
+}
+
+/* Bullet Points Icons */
+
+.fa-icon {
+    color: #ef8172;
+    padding-bottom: 1rem;
+}
+
+.fa-icon:hover {
+   color: #ff4c68;
+}
+
+
+.bullet-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.bullet-subtitle {
+    color: #8f8f8f;
+}
+
+/* Testimonials */
+
+#testimonials {
+    background-color: #ef8172;
+    text-align: center;
+    color: white;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonial-image {
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+}
+
+/* Press */
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 10%;
+    margin: 20px 20px 5px;
+
 }

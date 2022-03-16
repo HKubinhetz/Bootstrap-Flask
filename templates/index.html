@@ -70,8 +70,12 @@
 
             <div class="col-lg-6">
                 <h1>Meet new and interesting dogs nearby</h1>
-                <button type="button" class="btn btn-dark btn-lg download-button"><i class="fa-brands fa-apple"></i>  Download</button>
-                <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fa-brands fa-google-play"></i>  Download</button>
+                <button type="button" class="btn btn-dark btn-lg download-button"><i class="fa-brands fa-apple"></i>
+                    Download
+                </button>
+                <button type="button" class="btn btn-outline-light btn-lg download-button"><i
+                        class="fa-brands fa-google-play"></i> Download
+                </button>
             </div>
 
             <div class="col-lg-6">
@@ -87,14 +91,25 @@
 
 <section id="features">
 
-    <h3>Easy to use.</h3>
-    <p>So easy to use, even your dog could do it.</p>
+    <div class="row bullet-points">
+        <div class="container col-lg-4">
+            <i class="fa-solid fa-circle-check fa-icon fa-3x"></i>
+            <h3 class="bullet-title">Easy to Use</h3>
+            <p class="bullet-subtitle">So easy to use, even your dog could do it</p>
+        </div>
 
-    <h3>Elite Clientele</h3>
-    <p>We have all the dogs, the greatest dogs.</p>
+        <div class="container col-lg-4">
+            <i class="fa-solid fa-bullseye fa-icon fa-3x"></i>
+            <h3 class="bullet-title">Elite Clientele</h3>
+            <p class="bullet-subtitle">We have all the dogs, the greatest dogs</p>
+        </div>
 
-    <h3>Guaranteed to work.</h3>
-    <p>Find the love of your dog's life or your money back.</p>
+        <div class="container col-lg-4">
+            <i class="fa-solid fa-heart fa-icon fa-3x"></i>
+            <h3 class="bullet-title">Guaranteed to Work</h3>
+            <p class="bullet-subtitle">Find the love of your dog's life or your money back</p>
+        </div>
+    </div>
 
 </section>
 
@@ -103,13 +118,37 @@
 
 <section id="testimonials">
 
-    <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
-    <img src="static/images/dog-img.jpg" alt="dog-profile">
-    <em>Pebbles, New York</em>
+    <div id="TestimonialsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#TestimonialsCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#TestimonialsCarousel" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
 
-    <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-    <em>Beverly, Illinois</em> -->
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+                <img class="testimonial-image" src="static/images/dog-img.jpg" alt="dog-profile">
+                <em>Pebbles, New York</em>
+            </div>
+            <div class="carousel-item">
+                <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love
+                    of their life. I think.</h2>
+                <img class="testimonial-image" src="static/images/lady-img.jpg" alt="lady-profile">
+                <em>Beverly, Illinois</em>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#TestimonialsCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#TestimonialsCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
 
 </section>
 
@@ -117,10 +156,10 @@
 <!-- Press -->
 
 <section id="press">
-    <img src="static/images/techcrunch.png" alt="tc-logo">
-    <img src="static/images/tnw.png" alt="tnw-logo">
-    <img src="static/images/bizinsider.png" alt="biz-insider-logo">
-    <img src="static/images/mashable.png" alt="mashable-logo">
+    <img class="press-logo" src="static/images/techcrunch.png" alt="tc-logo">
+    <img class="press-logo" src="static/images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="static/images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="static/images/mashable.png" alt="mashable-logo">
 
 </section>
 
