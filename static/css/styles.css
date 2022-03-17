@@ -149,3 +149,28 @@ h2 {
     }
 
 }
+
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+    padding: 7%
+}
+
+.cta-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+}
+
+#footer {
+    text-align: center;
+    padding: 4%;
+}
+
+.social-network-icons {
+    padding:20px 10px;
+    color: #ff4c68;
+}
