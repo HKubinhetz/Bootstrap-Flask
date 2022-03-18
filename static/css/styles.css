@@ -1,29 +1,28 @@
 body {
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5 {
     font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid {
+    padding: 3% 15% 12% 15%;
 }
 
 #title {
     background-color: #ff4c68;
     color: white;
     position: relative;
+    text-align: left;
 }
 
-h1 {
-    font-family: 'Montserrat', sans-serif;
+/* Headings */
+
+.big-heading {
     font-size: 3rem;
     line-height: 1.5;
     font-weight: 900;
-}
-
-h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;
-    line-height: 1.5;
-    font-weight: 900;
-}
-
-.container-fluid {
-    padding: 3% 15% 12% 15%;
 }
 
 /* Navigation Bar */
@@ -63,12 +62,6 @@ h2 {
     right: 22%;
 }
 
-/* Bullet Points */
-
-.bullet-points {
-    text-align: center;
-}
-
 /* Features */
 
 #features {
@@ -103,8 +96,13 @@ h2 {
 
 #testimonials {
     background-color: #ef8172;
-    text-align: center;
     color: white;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
 }
 
 .carousel-item {
@@ -121,7 +119,6 @@ h2 {
 
 #press {
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 3%;
 }
 
@@ -131,11 +128,31 @@ h2 {
 
 }
 
+/* Pricing */
+
 #pricing {
-    text-align: center;
     padding: 50px;
 }
 
+.plan-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #ff4c68;
+    margin: 0px;
+}
+
+.pricing-title {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: #ff4c68;
+}
+
+.pricing-text {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
 
 @media (max-width: 1028px) {
     .iphone-img {
@@ -151,22 +168,12 @@ h2 {
 }
 
 #cta {
-    text-align: center;
     background-color: #ff4c68;
     color: white;
     padding: 7%
 }
 
-.cta-text {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;
-    font-weight: 900;
-    color: white;
-    text-align: center;
-}
-
 #footer {
-    text-align: center;
     padding: 4%;
 }
 
